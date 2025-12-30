@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function myFunction(){
+        var x = document.getElementById(myinput)
+        if (x.type==="password"){x.type="text";} 
+        else{x.type="password";}
+      }
+    </script>
+  </head>
+  <body>
+    <h4>To start with you will need to open an account with Danny Computer Institute</h4>
+    <p><input placeholder="Name"></p>
+    <p><input placeholder="Password " type="password" id="myinput"></p>
+    <p> <input type="checkbox" onclick="myFunction()">Show Password </p>
+    
+  </body>
+</html>
